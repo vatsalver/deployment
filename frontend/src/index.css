@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'NHaasGroteskDSPro-65Md' !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#carousel {
+  height: 300px; /* Set the desired height for the carousel container */
+  display: flex; /* Use flexbox to center the image vertically */
+  align-items: center; /* Center the image vertically */
+}
+
+.carousel-inner img {
+  max-height: 100%; /* Set a maximum height for the image */
+  max-width: 100%; /* Set a maximum width for the image */
+  margin: 0 auto; /* Center the image horizontally */
+}
