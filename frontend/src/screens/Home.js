@@ -9,7 +9,7 @@ export default function Home() {
     const [foodItem, setfoodItem] = useState([]);
 
     const loadData = async () => {
-        let response = await fetch("http://localhost:4000/api/foodData", {
+        let response = await fetch("https://eatit-server.vercel.app/api/foodData", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
@@ -43,8 +43,8 @@ export default function Home() {
                                     type="search"
                                     placeholder="Search"
                                     aria-label="Search"
-                                    value = {search} 
-                                    onChange={(e)=>{setsearch(e.target.value)}}
+                                    value={search}
+                                    onChange={(e) => { setsearch(e.target.value) }}
                                 />
                                 {/* <button
                                     className="btn btn-outline-warning text-white bg-warning"
@@ -114,7 +114,7 @@ export default function Home() {
                                                 <div key={filterItems._id} className='col-12 col-md-6 col-lg-3'>
                                                     <Card foodItem={filterItems}
                                                         options={filterItems.options[0]}
-                                                       
+
                                                     ></Card>
                                                 </div>
                                             )

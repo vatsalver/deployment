@@ -19,7 +19,7 @@ export default function Cart() {
   const handleCheckOut = async () => {
     let userEmail = localStorage.getItem("userEmail");
     // console.log(data,localStorage.getItem("userEmail"),new Date())
-    let response = await fetch("http://localhost:4000/api/orderData", {
+    let response = await fetch("https://eatit-server.vercel.app/api/orderData", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
@@ -32,7 +32,7 @@ export default function Cart() {
         order_date: new Date().toDateString()
       })
     });
-    
+
     if (response.status === 200) {
       dispatch({ type: "DROP" })
     }

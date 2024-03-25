@@ -8,15 +8,15 @@ export default function MyOrder() {
 
     const fetchMyOrder = async () => {
         console.log(localStorage.getItem('userEmail'))
-        await fetch("http://localhost:4000/api/myOrderData", {
+        await fetch("https://eatit-server.vercel.app/api/myOrderData", {
             // credentials: 'include',
             // Origin:"http://localhost:3000/login",
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body:JSON.stringify({
-                email:localStorage.getItem('userEmail')
+            body: JSON.stringify({
+                email: localStorage.getItem('userEmail')
             })
         }).then(async (res) => {
             let response = await res.json()
