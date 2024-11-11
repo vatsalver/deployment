@@ -56,7 +56,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item active">
                             <img
-                                src="..\static\Paneer-Chilli.jpg"
+                                src="https://food.annapurnaderoyal.com/wp-content/uploads/2021/07/Chilli-Paneer.jpg"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
@@ -64,7 +64,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="..\static\vegbiryani.webp"
+                                src="https://www.shanfoods.com/wp-content/uploads/2022/07/vegtable-biryani.jpg"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
@@ -72,7 +72,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="..\static\Paneer-Tikka.jpg"
+                                src="https://www.cookforindia.com/wp-content/uploads/2016/08/Paneer-Tikka-_LR-1140x500.jpg"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
