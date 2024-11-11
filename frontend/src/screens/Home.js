@@ -56,7 +56,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item active">
                             <img
-                                src="https://drive.google.com/file/d/11Jg2X8Yh7mzmIdtimKwdsIyD86JXGtTd/view?usp=sharing"
+                                src="..\static\Paneer-Chilli.jpg"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
@@ -64,7 +64,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://drive.google.com/file/d/1hivBmAzv1vvE51t9cBsAe85TsxywMBzQ/view?usp=sharing"
+                                src="..\static\vegbiryani.webp"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
@@ -72,7 +72,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://drive.google.com/file/d/1JlDVwRM4vHghQFwl7ECCPq7f18ntsNn1/view?usp=sharing"
+                                src="..\static\Paneer-Tikka.jpg"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
