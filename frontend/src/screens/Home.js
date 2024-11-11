@@ -56,7 +56,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item active">
                             <img
-                                src="https://source.unsplash.com/random/900x700/?burger"
+                                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Forder.bikanervala.com%2Fproduct-detail%2Fpaneer-tikka-punjabi&psig=AOvVaw3_kSV94JQLBAZcFsk4U7ai&ust=1731400517605000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCrkN7v04kDFQAAAAAdAAAAABAE"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
@@ -64,7 +64,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://source.unsplash.com/random/900x700/?fries"
+                                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3DDo7ZdUodDdw&psig=AOvVaw2FqwswA9U2hPywkRMgdUXZ&ust=1731400575490000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNC46_Tv04kDFQAAAAAdAAAAABAE"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
@@ -72,7 +72,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://images.marico.in/1200x0/uploads/soya-pizza-1-3460.jpg"
+                                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.maggi.in%2Fen%2Fpaneer-chilli-recipe%2F&psig=AOvVaw0pIybN-Y0A-IYojawNR06M&ust=1731400637306000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMC9mZTw04kDFQAAAAAdAAAAABAE"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
