@@ -72,7 +72,7 @@ export default function Home() {
                         </div>
                         <div className="carousel-item">
                             <img
-                                src="https://source.unsplash.com/random/900x700/?pizza"
+                                src="https://images.marico.in/1200x0/uploads/soya-pizza-1-3460.jpg"
                                 className="d-block w-100"
                                 style={{ filter: "brightness(50%)", objectFit: "cover" }}
                                 alt="..."
